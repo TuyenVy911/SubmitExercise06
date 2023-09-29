@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Power buy picked 2 items test Suite">
+  <test name="Power buy picked 2 items test" >
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="powerbuyweb.tests.ItemsInCartTest"/>
+    </classes>
+  </test>
+</suite>
